@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/43c90bde29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/slider.css">
+    
+    <title>How to order ? - RT Collection</title>
+</head>
+<body>
+
+
+    <div class="cotainer">
+        <div class="grp">
+            <p class="text_silder"> 10% off off casual shirt <a href="#" style="text-decoration: none;">click here</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                10% off off formal shirt <a href="#" style="text-decoration: none;">click Here</a> </p>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#">RT Collection</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="about.html">How to order ?</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <div class="dropdown">
+                    <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+                    <div class="dropdown-content">
+                    <a href="login.html">Login</a>
+                    <a href="register.html">Register</a>
+                </div>
+                </div>  
+                <div class="cart-logo">
+                    <a href=""><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></a>
+                    
+                </div>
+                <div class="cart-logo1">
+                   <a href=""><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></a> 
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="main">
+        <h1>How to order ?</h1>
+    </div>
+
+
+    
+    <div class="left">
+        <div class="txt">
+        <ol>
+            <li>First of all create your account.</li>
+            <li> If your account has been created then login to it.</li>
+            <li> Then click on the product you want to buy or enter your size.</li>
+            <li>Then click on add to cart and place order</li>
+            <li>click on the payment button</li>
+            <li>wait for the order to be accepted.</li>
+
+        </ol>
+
+        <ol>
+            <li>सबसे पहले अपना अकाउंट बनाएं.</li>
+            <li>अगर आपका अकाउंट बन गया है तो उसमें लॉगइन करें।</li>
+            <li> फिर उस उत्पाद पर क्लिक करें जिसे आप खरीदना चाहते हैं या अपना आकार दर्ज करें|</li>
+            <li>कार्ट में जोड़ें और प्लेस ऑर्डर पर क्लिक करें, </li>
+            <li>भुगतान बटन पर क्लिक करें </li>
+            <li>ऑर्डर स्वीकार होने तक प्रतीक्षा करें।</li>
+
+        </ol>
+    </div>
+    </div>
+
+    <div class="right">
+        <img class="img" src="img/main.webp" alt="">
+    </div>
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-img">
+            <img class="footer-img" src="img/logo.png" alt="">
+        </div>
+
+        <div class="footer-logo">
+            
+            <h1>RT Collection</h1>
+            
+        </div>
+        
+        <ul class="social-icon">
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <i class="fa-brands fa-facebook"></i>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <i class="fa-brands fa-whatsapp"></i>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <i class="fa-brands fa-instagram"></i>
+            </a></li>
+          
+            
+
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+          <li class="menu__item"><a class="menu__link" href="about.html">How to order ?</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Shop</a></li>
+          <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+          
+    
+        </ul>
+        <p>&copy;2024 RT Collection | All Rights Reserved</p>
+
+        
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var style = document.createElement('style');
+        var position = 'right';
+
+
+        var textSlider = document.querySelector('.text_silder');
+        var offsetWidth = textSlider ? textSlider.offsetWidth : 0;
+
+        style.innerHTML = `
+        @keyframes my-animation {
+            0% { ${position}: -${offsetWidth + 10}px; }
+            100% { ${position}: 100%; }
+        }
+    `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>

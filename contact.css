@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+.contact-left {
+    flex-basis: 50%;
+    float: left;
+}
+
+.contact-right {
+    flex-basis: 50%;
+
+}
+
+.contact-left p {
+    margin-top: 30px;
+
+}
+
+.contact-left h1 {
+    font-size: 50px;
+
+}
+
+.contact-left a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact-left a:hover {
+    text-decoration: none;
+    color: #e35f5f;
+}
+
+.contact-left p {
+    font-size: 20px;
+    padding-right: 1px;
+}
+
+.contact-left p i {
+    color: #533a3a;
+    margin-right: 15px;
+    font-size: 25px;
+    padding-left: 1%;
+}
+
+.contact-left p i:hover {
+    color: #000000;
+    margin-right: 15px;
+    font-size: 25px;
+    padding-left: 1%;
+}
+
+.social-icons {
+    margin-top: 20px;
+
+}
+
+.social-icons a {
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #533a3a;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #000000;
+    transform: translateY(-5px);
+}
+
+.btn {
+    display: inline-block;
+    background: #ffffff;
+    color: #000000;
+    box-shadow: 0px 0px 20px rgb(255, 11, 11);
+    ;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 50px rgb(0, 255, 4);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.contact-right form {
+    width: 50%;
+    float: right;
+
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #ffffff;
+    padding: 15px;
+    margin: 15px 0;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 30px black;
+
+}
+
+form .btn {
+    padding: 14px 60px;
+    margin-bottom: 5%;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.containersss {
+    padding: 10px 10%;
+    padding-top: 15%;
+    background-color: #ffffff;
+}
+
+
